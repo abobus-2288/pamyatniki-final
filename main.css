@@ -12,9 +12,10 @@ input{
     width: 550px;
     height: 60px;
     background-color: #151515;
-}
-input::after{
-    content: url("images/poisk.svg");
+    background-repeat: no-repeat;
+    background-image: url(images/poisk.svg);
+    background-position: right center;
+    color: white;
 }
 .container{
     max-width: 1411px;
