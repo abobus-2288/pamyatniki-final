@@ -6,6 +6,12 @@
 }
 input::placeholder{
     border-color: #151515;
+    padding: 17px 156px 16px 20px;
+}
+input{
+    width: 550px;
+    height: 60px;
+    background-color: #151515;
 }
 .container{
     max-width: 1411px;
@@ -66,10 +72,11 @@ main{
     text-align: center;
     color: white;
 }
-h1{
+.title3{
     color:  white;
     text-align: center;
     padding-top: 89px;
+    padding-left: 15px;
 }
 .name{
     font-size: 25px;
@@ -113,6 +120,19 @@ h1{
     right: 126px;
     color:white
 }
+.vandals{
+    padding-left: 53px;
+    padding-top: 87px;
+    font-size: 26px;
+}
+span{
+    color: #28783E;
+}
+.solving{
+    padding-left: 53px;
+    padding-top: 46px;
+    font-size: 26px;
+}
 .reason{
     color: #B9B9B9;
 }
@@ -129,9 +149,6 @@ h1{
 p{
     color: white;
 }
-.span{
-    color: #28783E;
-}
 .help{
     padding-left: 15px;
 }
@@ -147,6 +164,16 @@ p{
 .cameras{
     background-image: url(images/cameras.jpg);
     margin-top: 46px;
+}
+.text{
+    width: 690px;
+    margin-top: 18px;
+    font-size: 26px;
+}
+.text2{
+    width: 690px;
+    margin-top: 18px;
+    font-size: 26px;
 }
 .menu3 >div{
     width: 690px;
@@ -184,4 +211,30 @@ p{
     width: 690px;
     height: 500px;
     position: relative;
+}
+.secondary1{
+    color: #E2BC32;
+    margin-top: 86px;
+    padding-bottom: 46px;
+    padding-left: 53px;
+}
+.secondary2{
+    color: #E2BC32;
+    margin-top: 49px;
+    padding-bottom: 46px;
+}
+.secondary3{
+    color: #E2BC32;
+    padding-top: 97px;
+    padding-bottom: 46px;
+    padding-left: 53px;
+}
+.secondary4{
+    margin-top: 38px;
+    font-size: 26px;
+}
+.secondary5{
+    margin-top: 38px;
+    font-size: 26px;
+    padding-bottom: 50px;
 }
